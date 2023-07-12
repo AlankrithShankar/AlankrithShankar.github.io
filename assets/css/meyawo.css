@@ -12565,6 +12565,9 @@ Main components
 .bar .progress-line.collab span {
   width: 80%;
 }
+.bar .progress-line.script span {
+  width: 60%;
+}
 
 .progress-line span::before {
   position: absolute;
@@ -12622,8 +12625,12 @@ Main components
 }
 
 .progress-line.collab span::after {
-  content: "80%";
+  content: "90%";
 }
+.progress-line.script span::after {
+  content: "60%";
+}
+
 #id{
   display: grid;
   height: 100%;
