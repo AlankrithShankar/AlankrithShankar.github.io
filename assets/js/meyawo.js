@@ -31,6 +31,13 @@ $(document).ready(function(){
     });
 });
 
+$(".about").click(function() {
+  $('html,body').animate({
+      scrollTop: $("#about").offset().top},
+      'slow');
+});
+
+
 // navbar toggle
 $('#nav-toggle').click(function(){
     $(this).toggleClass('is-active')
